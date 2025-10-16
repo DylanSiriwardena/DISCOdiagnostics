@@ -10,11 +10,11 @@ The provided scripts go through mapping, parsing fasta headers (barcodes and UMI
 ## General Workflow
 The provided scripts go through the initial processing and merging of the outputs from CellRanger in R using Seurat. Analysis of FastQ files were performed by the Princess Margaret Genomics Centre.
 
-Initial loading, normalizing, annotation, and visualizing of individual datasets into a Seurat Object
+Dataset_annotation.R: Initial loading, normalizing, annotation, and visualizing of individual datasets into a Seurat Object
 
-Merging swab datasets and analyzing cellular profiles
+Merger_initialanalysis.R: Fetal_cell_marker_panel.R: Merging swab datasets and analyzing cellular profiles
 
-Merging placental and swab datasets and generation of fetal cell marker panel
+Fetal_cell_marker_panel.R: Merging placental and swab datasets and generation of fetal cell marker panel
 
 ## Publication
 *In progress*
